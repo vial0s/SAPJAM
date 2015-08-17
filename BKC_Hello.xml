@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
-<!-- Tutorial_01_Hello_World (XML) -->
+<!-- Tutorial_02_UI_Setup (XML, HTML, CSS) -->
 <Module specificationVersion='2'>
-	<ModulePrefs title="Tutorial_01_Hello_World">
+	<!-- 
+	* STEP 1
+	* Let's rename our application and set a default height for the gadget to 250 in ModulePrefs
+	-->
+	<ModulePrefs title="Tutorial_02_UI_Setup" height="250">
 	</ModulePrefs>
-	<Content type="html">
-		<![CDATA[
-			Hello, world!
-		]]>
-	</Content>
+	<Content type="html" href="ui_setup.html"/>
 </Module>
